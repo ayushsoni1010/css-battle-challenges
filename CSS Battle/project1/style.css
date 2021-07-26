@@ -1,0 +1,30 @@
+  body{
+    background: #E3516E;
+  }
+  .container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	position:relative;
+    top:15%;
+  }
+  .left-circle{
+    background-color:#51B5A9;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius:100%;
+  }
+  .right-circle{
+    background-color:#FADE8B;
+    width: 100px;
+    height: 100px;
+    border-top-right-radius:100%;
+  }.bottom-circle{
+    display: flex;
+    position: absolute;
+    top: 6.25em;
+    left: 41.25em;
+    background-color:#F7F3D7;
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius:100%;}
