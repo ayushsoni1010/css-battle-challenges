@@ -1,0 +1,31 @@
+body{
+    background-color:#F2F2B6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+  }
+    div{
+    border-left:75px solid transparent;
+    border-right: 75px solid transparent;
+    position:absolute;
+     top:30%;
+    }
+    .lightfront{
+      border-top: 130px solid #FF6D00;
+      left:600px;
+    }
+    .lightback{
+      border-bottom: 130px solid #FF6D00;
+      right:620px;
+    }
+    .darkfront{
+      border-bottom: 130px solid #FD4602;
+       right:600px;
+    }
+    .darkback{
+      border-top: 130px solid #FD4602;
+      left:620px;
+      z-index:-1;
+    }
+  
