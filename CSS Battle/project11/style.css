@@ -1,41 +1,46 @@
-  body{
-    background-color:#191210;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top: 20em;
+  body {
+      background-color: #191210;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20em;
   }
-  div{
-    position:absolute;
+  
+  div {
+      position: absolute;
   }
-  .circle{
-    border: 20px solid #ECA03D;
-    border-radius:100%;
-    padding:50px;
+  
+  .circle {
+      border: 20px solid #ECA03D;
+      border-radius: 100%;
+      padding: 50px;
   }
-  .small{
-    height:50px;
-    width:50px;
-    background-color:#84271C;
-    border-radius:100%;
+  
+  .small {
+      height: 50px;
+      width: 50px;
+      background-color: #84271C;
+      border-radius: 100%;
   }
-  .left{
-    width:60px;
-    height:30px;
-    border-bottom-left-radius:50px;
-    border-bottom-right-radius:50px;
-    border:20px solid #ECA03D;
-    border-top:0;
-	top:20em;
-    left:38.65em;
+  
+  .left {
+      width: 60px;
+      height: 30px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border: 20px solid #ECA03D;
+      border-top: 0;
+      top: 20em;
+      left: 38.65em;
   }
-  .right{
-    width:60px;
-    height:30px;
-    border-top-left-radius:50px;
-    border-top-right-radius:50px;
-    border: 20px solid #ECA03D;
-    border-bottom:0;
-	top:17.4em;
-    right:38.625em;
+  
+  .right {
+      width: 60px;
+      height: 30px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border: 20px solid #ECA03D;
+      border-bottom: 0;
+      top: 17.4em;
+      right: 38.625em;
   }
