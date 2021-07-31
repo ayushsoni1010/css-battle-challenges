@@ -1,31 +1,32 @@
-body{
-  background: #E3516E;
+body {
+    background: #E3516E;
 }
 
-p{
-  width: 100px;
-  height: 100px;
+p {
+    width: 100px;
+    height: 100px;
 }
 
-.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.left-circle{
-  background-color:#51B5A9;border-top-left-radius:100%;
-}
-  
-.right-circle{
-background-color:#FADE8B;
-border-top-right-radius:100%;
+.left-circle {
+    background-color: #51B5A9;
+    border-top-left-radius: 100%;
 }
 
-.bottom-circle{
-background-color:#F7F3D7;
-border-bottom-left-radius:100%;
-position: absolute;
-top: 6.75rem;
-margin-right: 6.24rem;
+.right-circle {
+    background-color: #FADE8B;
+    border-top-right-radius: 100%;
+}
+
+.bottom-circle {
+    background-color: #F7F3D7;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    top: 6.75rem;
+    margin-right: 6.24rem;
 }

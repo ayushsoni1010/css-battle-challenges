@@ -1,0 +1,34 @@
+body {
+    background-color: #09042A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+}
+
+.left {
+    border-radius: 100%;
+    background-color: #7B3F61;
+    left: 75px;
+}
+
+.center {
+    height: 80px;
+    width: 80px;
+    z-index: 1;
+    background-color: #09042A;
+    transform: rotate(135deg);
+    border-top-left-radius: 95%;
+    border-bottom-right-radius: 95%;
+}
+
+.right {
+    border-radius: 100%;
+    background-color: #E78481;
+    right: 75px;
+}
