@@ -9,12 +9,13 @@ div {
     height: 150px;
     width: 150px;
     position: absolute;
+    top: 35%;
 }
 
 .left {
     border-radius: 100%;
     background-color: #7B3F61;
-    left: 75px;
+    left: 642px;
 }
 
 .center {
@@ -22,6 +23,7 @@ div {
     width: 80px;
     z-index: 1;
     background-color: #09042A;
+    margin-top: 280px;
     transform: rotate(135deg);
     border-top-left-radius: 95%;
     border-bottom-right-radius: 95%;
@@ -30,5 +32,5 @@ div {
 .right {
     border-radius: 100%;
     background-color: #E78481;
-    right: 75px;
+    right: 642px;
 }
