@@ -1,0 +1,78 @@
+body {
+    background-color: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+}
+
+div {
+    position: absolute;
+}
+
+.left {
+    height: 100px;
+    width: 200px;
+    background-color: #F7EC7D;
+}
+
+.right {
+    height: 100px;
+    width: 60px;
+    right: 608px;
+    background-color: #E38F66;
+}
+
+.oneL {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    top: 285px;
+    left: 655px;
+    background-color: #62306D;
+}
+
+.twoL {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    top: 380px;
+    left: 655px;
+    background-color: #62306D;
+}
+
+.threeC {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    top: 290px;
+    right: 657px;
+    background-color: #62306D;
+}
+
+.fourC {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    bottom: 312px;
+    right: 657px;
+    background-color: #62306D;
+}
+
+.fiveR {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    top: 285px;
+    right: 590px;
+    background-color: #62306D;
+}
+
+.sixR {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    bottom: 307px;
+    right: 590px;
+    background-color: #62306D;
+}
