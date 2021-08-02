@@ -1,0 +1,37 @@
+body {
+    background-color: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: #F3AC3C;
+    position: absolute;
+}
+
+.left {
+    height: 140px;
+    width: 110px;
+    top: 250px;
+    left: 678px;
+    background-color: #998235;
+    transform: rotateX(-59deg) rotateY(50deg) rotateZ(-0deg);
+}
+
+.right {
+    height: 140px;
+    width: 110px;
+    top: 250px;
+    right: 677px;
+    background-color: #1A4341;
+    transform: rotateX(59deg) rotateY(50deg) rotateZ(-0deg);
+}
+
+.center {
+    left: 718px;
+    bottom: 280px;
+    transform: rotate(45deg);
+}
