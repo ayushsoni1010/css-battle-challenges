@@ -7,15 +7,17 @@ body {
 
 div {
     position: absolute;
-    top:40%;
+    top:50%;
 }
 
-.upleft {
+.upLeft {
     background-color: #F3AC3C;
     width: 50px;
     height: 50px;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%; 
+    top:290px;
+    left:680px;
 }
 
 .upRight {
@@ -24,8 +26,8 @@ div {
     height: 50px;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
-    left: 210px;
-    top: 90px;
+    left: 760px;
+    top:290px;
 }
 
 .downLeft {
@@ -35,7 +37,6 @@ div {
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
     left: 600px;
-    bottom: 90px;
 }
 
 .downRight {
@@ -44,8 +45,7 @@ div {
     height: 50px;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    right: 70px;
-    bottom: 90px;
+    left: 840px;
 }
 
 .leftCircle {
@@ -53,8 +53,8 @@ div {
     height: 50px;
     border-radius: 100%;
     background-color: #998235;
-    left: 70px;
-    top: 90px;
+    left: 600px;
+    top:290px;
 }
 
 .rightCircle {
@@ -62,8 +62,8 @@ div {
     height: 50px;
     border-radius: 100%;
     background-color: #F3AC3C;
-    right: 70px;
-    top: 90px;
+    left: 840px;
+    top:290px;
 }
 
 .downLeftCircle {
@@ -71,8 +71,7 @@ div {
     height: 50px;
     border-radius: 100%;
     background-color: #998235;
-    left: 140px;
-    bottom: 90px;
+    left:680px;
 }
 
 .downRightCircle {
@@ -80,6 +79,5 @@ div {
     height: 50px;
     border-radius: 100%;
     background-color: #F3AC3C;
-    right: 140px;
-    bottom: 90px;
+    left: 760px;
 }
