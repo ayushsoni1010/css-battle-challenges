@@ -1,0 +1,33 @@
+body {
+    background-color: #F3AC3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: absolute;
+    top:40%;
+}
+
+.outer {
+    width: 200px;
+    height: 200px;
+    background-color: #1A4341;
+}
+
+.inner {
+    width: 100px;
+    height: 100px;
+    background-color: #998235;
+    top: 389px;
+    left: 668px;
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+    background-color: #F3AC3C;
+    top: 439px;
+    left: 718px;
+}
