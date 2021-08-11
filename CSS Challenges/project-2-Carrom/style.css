@@ -1,0 +1,25 @@
+  body {
+      background-color: #62374e;
+  }
+  
+  p {
+      height: 50px;
+      width: 50px;
+      background-color: #fdc57b;
+  }
+  
+  .ca,
+  .cs {
+      display: inline-block;
+      margin-top: -3.67em;
+  }
+  
+  .ca p {
+      margin-top: 6.28em;
+      margin-left: 2.7em;
+  }
+  
+  .cs p {
+      margin-top: 6.28em;
+      margin-left: 12.2em;
+  }

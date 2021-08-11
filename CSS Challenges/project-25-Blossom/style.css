@@ -1,0 +1,50 @@
+body {
+    background-color: #998235;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: absolute;
+}
+
+.leftGreen {
+    background-color: #1A4341;
+    width: 80px;
+    height: 100px;
+    border-top-right-radius: 55%;
+    border-bottom-left-radius: 55%;
+    left: 700px;
+    top: 310px;
+}
+
+.rightGreen {
+    background-color: #1A4341;
+    width: 80px;
+    height: 100px;
+    border-top-left-radius: 55%;
+    border-bottom-right-radius: 55%;
+    right: 650px;
+    bottom: 230px;
+}
+
+.leftYellow {
+    width: 80px;
+    height: 60px;
+    border-top-right-radius: 70%;
+    border-bottom-left-radius: 70%;
+    background-color: #F3AC3C;
+    left: 700px;
+    bottom: 230px;
+}
+
+.rightYellow {
+    width: 80px;
+    height: 60px;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    background-color: #F3AC3C;
+    right: 650px;
+    top: 310px;
+}

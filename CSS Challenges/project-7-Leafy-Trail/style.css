@@ -1,0 +1,32 @@
+  body {
+      background-color: #0B2429;
+  }
+  
+  div {
+      width: 200px;
+      height: 200px;
+      border-top-left-radius: 67%;
+      border-bottom-right-radius: 67%;
+  }
+  
+  .container {
+      display: grid;
+      margin: 10rem auto;
+      position: relative;
+  }
+  
+  .left {
+      background-color: #1A4341;
+  }
+  
+  .main {
+      position: absolute;
+      left: 65px;
+      background-color: #998235;
+  }
+  
+  .right {
+      position: absolute;
+      left: 135px;
+      background-color: #F3AC3C;
+  }

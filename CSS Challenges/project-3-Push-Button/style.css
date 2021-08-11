@@ -1,0 +1,42 @@
+  body {
+      background-color: #6592CF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+  }
+  
+  div {
+      display: inline-block;
+      width: 300px;
+      position: absolute;
+  }
+  
+  .square {
+      width: 300px;
+      height: 150px;
+      background-color: #243D83;
+  }
+  
+  .blur {
+      width: 250px;
+      height: 250px;
+      background-color: #6592CF;
+      border-radius: 50%;
+  }
+  
+  .circle {
+      width: 150px;
+      height: 150px;
+      background-color: #243D83;
+      border-radius: 60%;
+  }
+  
+  .small {
+      background-color: #EEB850;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+  }
