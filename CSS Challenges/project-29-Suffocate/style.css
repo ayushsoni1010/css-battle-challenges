@@ -1,0 +1,44 @@
+body {
+    background-color: #F3AC3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #F3AC3C;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #1A4341;
+}
+
+.upLeft {
+    top: 145px;
+    left: 514px;
+    border-bottom-right-radius: 100%;
+}
+
+.upRight {
+    top: 145px;
+    right: 514px;
+    border-bottom-left-radius: 100%;
+}
+
+.downLeft {
+    bottom: 230px;
+    left: 514px;
+    border-top-right-radius: 100%;
+}
+
+.downRight {
+    bottom: 230px;
+    right: 514px;
+    border-top-left-radius: 100%;
+}
