@@ -1,0 +1,27 @@
+body {
+    background-color: #AA445F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100px;
+    height: 200px;
+    position: relative;
+    top:15rem;
+}
+
+.left {
+    background-color: #F7EC7D;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    right: 25px;
+}
+
+.right {
+    background-color: #E38F66;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    left: 25px;
+}
