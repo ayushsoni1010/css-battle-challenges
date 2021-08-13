@@ -1,0 +1,29 @@
+body {
+    margin-top: 11%;
+    margin-left: 35%;
+    background-color: cyan;
+}
+
+div {
+    width: 400px;
+}
+
+.yellow {
+    height: 50px;
+    background: #F7EC7D;
+}
+
+.orange {
+    height: 50px;
+    background: #E38F66;
+}
+
+.pink {
+    height: 100px;
+    background: #AA445F;
+}
+
+.purple {
+    height: 100px;
+    background: #62306D;
+}
