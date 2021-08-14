@@ -1,0 +1,30 @@
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.yellow {
+    background-color: #FBE18C;
+    z-index: 10;
+}
+
+.green {
+    background-color: #A3A368;
+    height: 200px;
+}
+
+.orange {
+    background-color: #F3AC3C;
+    height: 200px;
+    transform: rotate(-45deg);
+}
