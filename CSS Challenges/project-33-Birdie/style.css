@@ -1,0 +1,39 @@
+body {
+    background-color: #1A4341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: relative;
+    margin-top: 15rem;
+}
+
+.semi-circle {
+    width: 75px;
+    height: 150px;
+    background-color: #998235;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    right: -28px;
+}
+
+.small-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #0B2429;
+    z-index: 1;
+    border-radius: 100px;
+    top: -30px;
+    right: 17px;
+}
+
+.sector {
+    width: 100px;
+    height: 100px;
+    background-color: #F3AC3C;
+    border-top-right-radius: 100px;
+    top: -50px;
+    left: -2px;
+}
