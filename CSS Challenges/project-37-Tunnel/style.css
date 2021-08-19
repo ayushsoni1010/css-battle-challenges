@@ -1,0 +1,31 @@
+  body {
+      background-color: #6592CF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:20%;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .big {
+      width: 250px;
+      height: 250px;
+      background-color: #243D83;
+  }
+  
+  .medium {
+      width: 150px;
+      height: 150px;
+      background-color: #6592CF;
+      transform: rotate(15deg);
+  }
+  
+  .small {
+      width: 75px;
+      height: 75px;
+      background-color: #243D83;
+      transform: rotate(30deg);
+  }
