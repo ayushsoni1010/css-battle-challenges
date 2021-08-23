@@ -1,0 +1,32 @@
+  body {
+      background-color: #6592CF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: relative;
+      width: 100px;
+      height: 100px;
+  }
+  
+  .circle {
+      border: 50px solid #243D83;
+      border-radius: 50%;
+      top: 12rem;
+  }
+  
+  .dark {
+      width: 50px;
+      background-color: #243D83;
+      top: 8.8rem;
+      right: 200px;
+  }
+  
+  .light {
+      width: 50px;
+      background-color: #6592CF;
+      top: 8.8rem;
+      right: 200.2px;
+  }
