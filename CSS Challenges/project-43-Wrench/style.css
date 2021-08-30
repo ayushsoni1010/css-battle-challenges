@@ -1,0 +1,30 @@
+  body {
+      background-color: #6592CF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .left {
+      height: 40px;
+      width: 181px;
+      border-radius: 100px 100px 0 0;
+      border: 30px solid #243D83;
+      border-bottom: 0;
+      transform: rotate(90deg);
+      left: 60px;
+  }
+  
+  .right {
+      height: 40px;
+      width: 181px;
+      border-radius: 100px 100px 0 0;
+      border: 30px solid #243D83;
+      border-bottom: 0;
+      transform: rotate(270deg);
+      right: 60px;
+  }
