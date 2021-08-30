@@ -1,0 +1,47 @@
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #1A4341;
+  }
+  
+  div {
+      width: 180px;
+      height: 20px;
+      background: #F3AC3C;
+      position: absolute;
+  }
+  
+  .one {
+      top: 60px;
+  }
+  
+  .two {
+      top: 100px;
+  }
+  
+  .four {
+      top: 180px;
+  }
+  
+  .five {
+      top: 220px;
+  }
+  
+  .left-circle {
+      height: 270px;
+      width: 250px;
+      border-radius: 70%;
+      background-color: #1A4341;
+      z-index: 5;
+      left: -100px;
+  }
+  
+  .right-circle {
+      height: 270px;
+      width: 250px;
+      border-radius: 70%;
+      background-color: #1A4341;
+      z-index: 5;
+      right: -100px;
+  }
