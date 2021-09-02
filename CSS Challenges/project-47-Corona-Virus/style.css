@@ -1,0 +1,71 @@
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #1A4341;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      background-color: #F3AC3C;
+      z-index: 5;
+  }
+  
+  .left-dot,
+  .right-dot,
+  .bottom-dot {
+      background-color: #998235;
+      border-radius: 100px;
+      z-index: 16;
+  }
+  
+  .left-dot {
+      width: 30px;
+      height: 30px;
+      top: 120px;
+      left: 170px;
+  }
+  
+  .right-dot {
+      width: 10px;
+      height: 10px;
+      top: 120px;
+      right: 170px;
+  }
+  
+  .bottom-dot {
+      width: 20px;
+      height: 20px;
+      bottom: 115px;
+      left: 190px;
+  }
+  
+  .one,
+  .two,
+  .three {
+      width: 180px;
+      height: 10px;
+      z-index: 10;
+      top: 8.4rem;
+      background-color: #F3AC3C;
+      border-radius: 10px;
+      transform: rotate(90deg)
+  }
+  
+  .one {
+      top: 9.4rem;
+      left: 119px;
+      transform: rotate(30deg);
+  }
+  
+  .two {
+      top: 8.75rem;
+      left: 119px;
+      transform: rotate(150deg);
+  }
