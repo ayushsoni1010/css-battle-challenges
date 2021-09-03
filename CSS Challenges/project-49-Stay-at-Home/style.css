@@ -1,0 +1,42 @@
+  body {
+      background-color: #6592CF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .square {
+      width: 150px;
+      height: 110px;
+      background-color: #243D83;
+      border-radius: 10px;
+      margin-top: 90px;
+  }
+  
+  .triangle {
+      border: 100px solid #243D83;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-top: 0;
+      margin-top: -100px;
+  }
+  
+  .rectangle {
+      width: 100px;
+      height: 10px;
+      background-color: #EEB850;
+      border-radius: 10px;
+  }
+  
+  .bottom {
+      width: 50px;
+      height: 50px;
+      margin-top: 150px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: #EEB850;
+  }
