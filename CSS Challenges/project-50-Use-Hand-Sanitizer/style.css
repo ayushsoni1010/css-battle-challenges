@@ -1,0 +1,91 @@
+  body {
+      background: #1A4341;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .rectangle {
+      width: 100px;
+      height: 140px;
+      background-color: #F3AC3C;
+      margin-top: 60px;
+      border-radius: 20px;
+  }
+  
+  .half-rectangle {
+      width: 100px;
+      height: 80px;
+      margin-top: 120px;
+      background-color: #998235;
+      border-radius: 0 0 20px 20px;
+  }
+  
+  .bottle {
+      width: 50px;
+      height: 20px;
+      background-color: #F3AC3C;
+      top: 90px;
+      border-radius: 10px 10px 0 0;
+  }
+  
+  .up {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #998235;
+      margin-left: -50px;
+      margin-top: 30px;
+  }
+  
+  .down {
+      width: 50.5px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #F3AC3C;
+      margin-left: 50px;
+      margin-top: 30px;
+  }
+  
+  .middle {
+      width: 20px;
+      height: 20px;
+      background-color: #F3AC3C;
+      top: 70px;
+  }
+  
+  .top {
+      width: 150px;
+      height: 20px;
+      background-color: #F3AC3C;
+      border-radius: 20px;
+      margin-left: 50px;
+      top: 50px;
+  }
+  
+  .right {
+      width: 20px;
+      height: 40px;
+      background-color: #F3AC3C;
+      border-radius: 20px;
+      top: 50px;
+      right: 100px;
+  }
+  
+  .upDot,
+  .downDot {
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      background-color: #998235;
+      top: 100px;
+      right: 100px;
+  }
+  
+  .downDot {
+      top: 130px;
+  }
