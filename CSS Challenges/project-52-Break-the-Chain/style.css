@@ -1,0 +1,117 @@
+  body {
+      background-color: #6592CF;
+      display: flex;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .left-circle,
+  .middle-circle,
+  .right-circle {
+      width: 40px;
+      height: 40px;
+      background-color: #EEB850;
+      border-radius: 100%;
+      top: 120px;
+      z-index: -1;
+  }
+  
+  .left-circle {
+      left: 30px;
+  }
+  
+  .middle-circle {
+      margin-top: -20px;
+      width: 60px;
+      height: 60px;
+      left: 65px;
+  }
+  
+  .right-circle {
+      left: 120px;
+  }
+  
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven {
+      width: 10px;
+      height: 45px;
+      background-color: #243D83;
+      top: 145px;
+  }
+  
+  .one {
+      left: 45px;
+  }
+  
+  .two {
+      left: 90px;
+  }
+  
+  .three {
+      left: 135px;
+  }
+  
+  .four {
+      left: 210px;
+  }
+  
+  .five {
+      left: 255px;
+  }
+  
+  .six {
+      left: 300px;
+  }
+  
+  .seven {
+      left: 345px;
+  }
+  
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth,
+  .sixth,
+  .seventh {
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      background-color: #243D83;
+      top: 130px;
+  }
+  
+  .first {
+      left: 40px;
+  }
+  
+  .second {
+      left: 85px;
+  }
+  
+  .third {
+      left: 130px;
+  }
+  
+  .fourth {
+      left: 205px;
+  }
+  
+  .fifth {
+      left: 250px;
+  }
+  
+  .sixth {
+      left: 295px;
+  }
+  
+  .seventh {
+      left: 340px;
+  }
