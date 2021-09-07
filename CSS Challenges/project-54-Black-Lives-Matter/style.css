@@ -1,0 +1,68 @@
+  body {
+      background-color: #F9E492;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+      background-color: #191919;
+  }
+  
+  .bottom {
+      width: 50px;
+      height: 50px;
+      margin-top: 96px;
+      border-radius: 0 0 10px 10px;
+  }
+  
+  .middle {
+      width: 100px;
+      height: 40px;
+      margin-top: 15px;
+      border-radius: 0 0 10px 10px;
+  }
+  
+  .left-side {
+      width: 20px;
+      height: 65px;
+      border-radius: 20px;
+      transform: rotate(60deg);
+      margin-left: -65px;
+      margin-top: -15px;
+      border: 5px solid #F9E492;
+      z-index: 1;
+  }
+  
+  .one,
+  .two,
+  .three,
+  .four {
+      border-radius: 10px;
+      width: 20px;
+  }
+  
+  .one {
+      height: 45px;
+      top: 88px;
+      left: 155px;
+  }
+  
+  .two {
+      height: 60px;
+      top: 78px;
+      left: 180px;
+  }
+  
+  .three {
+      height: 45px;
+      top: 88px;
+      left: 205px;
+  }
+  
+  .four {
+      height: 35px;
+      top: 98px;
+      left: 230px;
+  }
