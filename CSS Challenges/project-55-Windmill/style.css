@@ -1,0 +1,44 @@
+  body {
+      background: #191919;
+  }
+  
+  div {
+      position: absolute;
+      width: 100px;
+      height: 50px;
+      border-top-left-radius: 100px;
+      border-top-right-radius: 100px;
+  }
+  
+  .light-left,
+  .light-right {
+      background-color: #F9E492;
+  }
+  
+  .light-left {
+      top: 100px;
+      left: 100px;
+  }
+  
+  .light-right {
+      top: 150px;
+      right: 100px;
+      transform: rotate(180deg);
+  }
+  
+  .dark-left,
+  .dark-right {
+      background-color: #4F77FF;
+  }
+  
+  .dark-left {
+      top: 175px;
+      left: 125px;
+      transform: rotate(270deg);
+  }
+  
+  .dark-right {
+      top: 75px;
+      right: 125px;
+      transform: rotate(90deg);
+  }
