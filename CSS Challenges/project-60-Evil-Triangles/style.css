@@ -1,0 +1,72 @@
+  body {
+      background-color: #191919;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .triangle-one,
+  .triangle-two {
+      width: 0;
+      border: 50px solid #4F77FF;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 0;
+      top: 75px;
+  }
+  
+  .triangle-one {
+      left: 100px;
+  }
+  
+  .triangle-two {
+      right: 100px;
+  }
+  
+  .triangle-middle-left,
+  .triangle-middle-right,
+  .triangle-left,
+  .triangle-right {
+      width: 106px;
+      height: 35px;
+      background-color: #4F77FF;
+      transform: rotate(-45deg);
+      top: 157.5px;
+  }
+  
+  .triangle-middle-left {
+      left: 121.5px;
+  }
+  
+  .triangle-middle-right {
+      right: 121.5px;
+      transform: rotate(45deg);
+  }
+  
+  .triangle-left {
+      transform: rotate(45deg);
+      left: 71px;
+  }
+  
+  .triangle-right {
+      right: 71px;
+  }
+  
+  .cover-left,
+  .cover-right {
+      width: 50px;
+      height: 50px;
+      background-color: #191919;
+  }
+  
+  .cover-left {
+      left: 50px;
+  }
+  
+  .cover-right {
+      right: 50px;
+  }
