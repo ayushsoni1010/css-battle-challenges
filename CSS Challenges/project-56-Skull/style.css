@@ -1,0 +1,70 @@
+  body {
+      background-color: #191919;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .circle {
+      width: 120px;
+      height: 100px;
+      border-radius: 100px 100px 15px 15px;
+      background-color: #4F77FF;
+      margin-top: -30px;
+  }
+  
+  .bottom {
+      width: 80px;
+      height: 40px;
+      margin-top: 90px;
+      background-color: #4F77FF;
+      border-radius: 0 0 20px 20px;
+  }
+  
+  .left-eye,
+  .right-eye,
+  .middle-eye {
+      width: 40px;
+      height: 40px;
+      background-color: #191919;
+      border-radius: 50px;
+      z-index: 1;
+  }
+  
+  .left-eye {
+      margin-top: 15px;
+      margin-left: -50px;
+  }
+  
+  .right-eye {
+      margin-top: 15px;
+      margin-left: 50px;
+  }
+  
+  .middle-eye {
+      width: 20px;
+      height: 20px;
+      margin-top: 70px;
+  }
+  
+  .one,
+  .two,
+  .three {
+      width: 10px;
+      height: 20px;
+      background-color: #191919;
+      border-radius: 20px;
+      margin-top: 130px;
+  }
+  
+  .one {
+      margin-left: -30px;
+  }
+  
+  .three {
+      margin-right: -30px;
+  }
