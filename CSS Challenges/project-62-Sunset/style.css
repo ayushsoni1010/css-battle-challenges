@@ -1,0 +1,45 @@
+  body {
+      background-color: #191919;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .square {
+      width: 150px;
+      height: 200px;
+      border-radius: 100px 100px 30px 30px;
+      background-color: #F2AD43;
+  }
+  
+  .left,
+  .right {
+      width: 100px;
+      height: 100px;
+  }
+  
+  .left {
+      bottom: 50px;
+      background-color: #E08027;
+      left: 125px;
+      border-radius: 0 100px 0 20px;
+  }
+  
+  .right {
+      bottom: 50px;
+      background-color: #824B20;
+      right: 125px;
+      border-radius: 100px 0 20px 0;
+  }
+  
+  .sun {
+      width: 60px;
+      height: 60px;
+      border-radius: 100px;
+      background-color: #FFF58F;
+      margin-top: 40px;
+  }
