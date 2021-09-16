@@ -1,0 +1,82 @@
+  body {
+      display: flex;
+      background-color: #191919;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+      background-color: #5DBCF9
+  }
+  
+  .box-one,
+  .box-two,
+  .box-three,
+  .box-four {
+      width: 45px;
+      height: 40px;
+  }
+  
+  .box-one {
+      left: 0px;
+      top: 80px;
+  }
+  
+  .box-two {
+      left: 0px;
+      bottom: 31px;
+  }
+  
+  .box-three {
+      right: 0px;
+      top: 30px;
+  }
+  
+  .box-four {
+      right: 0px;
+      bottom: 81px;
+  }
+  
+  .line-one,
+  .line-two,
+  .line-three {
+      width: 10px;
+      height: 300px;
+  }
+  
+  .line-one {
+      left: 45px;
+  }
+  
+  .line-three {
+      right: 45px;
+  }
+  
+  .rectangle-one,
+  .rectangle-two,
+  .rectangle-three,
+  .rectangle-four {
+      width: 150px;
+      height: 40px;
+  }
+  
+  .rectangle-one {
+      left: 50px;
+      top: 30px;
+  }
+  
+  .rectangle-two {
+      left: 50px;
+      bottom: 81px;
+  }
+  
+  .rectangle-three {
+      right: 50px;
+      top: 80px;
+  }
+  
+  .rectangle-four {
+      right: 50px;
+      bottom: 31px;
+  }
