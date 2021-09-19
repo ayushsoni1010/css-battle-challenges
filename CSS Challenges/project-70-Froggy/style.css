@@ -1,0 +1,98 @@
+  body {
+      background-color: #293462;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .main {
+      width: 150px;
+      height: 100px;
+      background-color: #FE5F55;
+      border-radius: 50px;
+  }
+  
+  .shadow {
+      width: 145px;
+      height: 50px;
+      background-color: #A64942;
+      border-radius: 0 0 40px 40px;
+      margin-top: 50px;
+  }
+  
+  .cover {
+      width: 148px;
+      height: 30px;
+      border-radius: 0 0 40px 40px;
+      margin-top: 12px;
+      background-color: #FE5F55;
+  }
+  
+  .left-circle,
+  .right-circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: #FE5F55;
+      top: 85px;
+  }
+  
+  .left-circle {
+      margin-left: -70px;
+  }
+  
+  .right-circle {
+      margin-right: -70px;
+  }
+  
+  .left-eye,
+  .right-eye {
+      width: 30px;
+      height: 30px;
+      background-color: #FFF1C1;
+      border-radius: 100px;
+      top: 95px;
+  }
+  
+  .left-eye {
+      margin-left: -70px;
+  }
+  
+  .right-eye {
+      margin-right: -70px;
+  }
+  
+  .one,
+  .two,
+  .three,
+  .four {
+      width: 10px;
+      height: 10px;
+      background-color: #293462;
+      border-radius: 100%;
+  }
+  
+  .one {
+      left: 160px;
+      top: 105px;
+  }
+  
+  .two {
+      right: 160px;
+      top: 105px;
+  }
+  
+  .three {
+      left: 185px;
+      top: 160px;
+  }
+  
+  .four {
+      right: 185px;
+      top: 160px;
+  }
