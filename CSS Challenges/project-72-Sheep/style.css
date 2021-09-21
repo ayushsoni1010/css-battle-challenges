@@ -1,0 +1,132 @@
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight {
+      width: 50px;
+      height: 40px;
+      background-color: #6592CF;
+      border-top-left-radius: 100%;
+      border-top-right-radius: 100%;
+  }
+  
+  .one,
+  .five {
+      left: 175px;
+      top: 65px;
+  }
+  
+  .two {
+      left: 218px;
+      top: 85px;
+      transform: rotate(45deg);
+  }
+  
+  .three {
+      left: 240px;
+      top: 130px;
+      transform: rotate(90deg);
+  }
+  
+  .four {
+      left: 218px;
+      top: 175px;
+      transform: rotate(135deg);
+  }
+  
+  .five {
+      top: 195px;
+      transform: rotate(180deg);
+  }
+  
+  .six {
+      right: 218px;
+      top: 85px;
+      transform: rotate(-45deg);
+  }
+  
+  .seven {
+      right: 240px;
+      top: 130px;
+      transform: rotate(-90deg);
+  }
+  
+  .eight {
+      right: 218px;
+      top: 175px;
+      transform: rotate(-135deg);
+  }
+  
+  body {
+      background-color: #243D83;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .main-circle {
+      width: 140px;
+      height: 140px;
+      background-color: #6592CF;
+      border-radius: 100px;
+  }
+  
+  .main {
+      width: 60px;
+      height: 70px;
+      background-color: #243D83;
+      border-radius: 40px;
+      margin-top: -20px;
+  }
+  
+  .left-eye,
+  .right-eye {
+      width: 10px;
+      height: 10px;
+      background-color: #6592CF;
+      z-index: 1;
+      top: 130px;
+      border-radius: 100%;
+  }
+  
+  .left-eye {
+      left: 185px;
+  }
+  
+  .right-eye {
+      right: 185px;
+  }
+  
+  .left,
+  .middle,
+  .right {
+      width: 30px;
+      height: 30px;
+      background-color: #6592CF;
+      border-radius: 50px;
+  }
+  
+  .left {
+      left: 155px;
+      top: 99px;
+  }
+  
+  .middle {
+      width: 35px;
+      left: 180px;
+      top: 85px;
+  }
+  
+  .right {
+      height: 35px;
+      transform: rotate(-45deg);
+      left: 215px;
+      top: 96px;
+  }
