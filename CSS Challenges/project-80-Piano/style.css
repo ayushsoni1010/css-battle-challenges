@@ -1,0 +1,87 @@
+  body {
+      background-color: #998235;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+  }
+  
+  .board {
+      width: 180px;
+      height: 100px;
+      background-color: #191919;
+      border-radius: 10px;
+  }
+  
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven {
+      border-radius: 5px;
+      width: 20px;
+      height: 70px;
+      background-color: #FFFFFF;
+      margin-top: 20px;
+  }
+  
+  .one {
+      left: 115px;
+  }
+  
+  .two {
+      left: 140px;
+  }
+  
+  .three {
+      left: 165px;
+  }
+  
+  .five {
+      left: 215px;
+  }
+  
+  .six {
+      left: 240px;
+  }
+  
+  .seven {
+      left: 265px;
+  }
+  
+  .black-one,
+  .black-two,
+  .black-three,
+  .black-four,
+  .black-five {
+      background-color: #191919;
+      ;
+      width: 15px;
+      height: 40px;
+      margin-top: -20px;
+  }
+  
+  .black-one {
+      left: 130px;
+  }
+  
+  .black-two {
+      left: 155px;
+  }
+  
+  .black-three {
+      right: 180px;
+  }
+  
+  .black-four {
+      right: 155px;
+  }
+  
+  .black-five {
+      right: 130px;
+  }

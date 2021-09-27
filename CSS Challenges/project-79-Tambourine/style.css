@@ -1,0 +1,104 @@
+  body {
+      background-color: #6592CF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div {
+      position: absolute;
+      background-color: #6592CF;
+  }
+  
+  .circle {
+      width: 150px;
+      height: 150px;
+      border: 10px solid #243D83;
+      border-radius: 100px;
+      margin-left: 1px;
+      margin-top: 20px;
+  }
+  
+  .circle-outer {
+      width: 90px;
+      height: 90px;
+      bottom: -10px;
+      border-radius: 100px;
+      border: 10px solid #243D83;
+  }
+  
+  .inner-curve {
+      width: 120px;
+      height: 70px;
+      bottom: 0;
+  }
+  
+  .circle-one,
+  .circle-two,
+  .circle-three,
+  .circle-four,
+  .circle-five {
+      width: 30px;
+      height: 30px;
+      border: 10px solid #243D83;
+      border-radius: 100px;
+  }
+  
+  .circle-one {
+      top: 95px;
+      left: 105px;
+  }
+  
+  .circle-two {
+      top: 55px;
+  }
+  
+  .circle-three {
+      top: 95px;
+      right: 105px;
+  }
+  
+  .circle-four {
+      top: 165px;
+      right: 105px;
+  }
+  
+  .circle-five {
+      top: 165px;
+      left: 105px;
+  }
+  
+  .dot-one,
+  .dot-two,
+  .dot-three,
+  .dot-four,
+  .dot-five {
+      width: 10px;
+      height: 10px;
+      border-radius: 100px;
+      background-color: #243D83;
+  }
+  
+  .dot-one {
+      top: 115px;
+      left: 125px;
+  }
+  
+  .dot-two {
+      top: 75px;
+  }
+  
+  .dot-three {
+      top: 115px;
+      right: 125px;
+  }
+  
+  .dot-four {
+      top: 185px;
+      left: 125px;
+  }
+  
+  .dot-five {
+      top: 185px;
+      right: 125px;
+  }
